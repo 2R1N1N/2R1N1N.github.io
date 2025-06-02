@@ -1,21 +1,24 @@
 body {
-  font-family sans-serif;
-  line-height 1.5;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #fff8dc;
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 3px dashed #8b4513;
+}
 
-  background-color #f9f9f9;
-  color #333333;
-
-  width 980px;
-  margin 0 auto;
+header, footer {
+  background-color: #f5deb3;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #8b4513;
 }
 
 h1 {
-  text-align center;
-  font-size 36px;
-  margin-bottom 0;
+  color: #8b0000;
 }
 
-main  h2 {
-  text-align center;
-  font-size 25px;
+ul {
+  list-style-type: square;
 }
